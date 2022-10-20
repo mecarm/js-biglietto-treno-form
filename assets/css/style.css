@@ -1,0 +1,17 @@
+body{
+    background-color: #B91350;
+    color: white;
+}
+
+.container1{
+    background-color: white;
+    color: #B91350;
+}
+
+.border_red{
+    border: 1px solid #B91350;
+}
+
+.color_text{
+    color: #B91350;
+}
