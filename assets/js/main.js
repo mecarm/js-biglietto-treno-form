@@ -1,6 +1,3 @@
-function capitalize() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-}
 function valida(){
     let price = 0.21;
     let valueKm = document.getElementById('km').value;
@@ -26,4 +23,8 @@ function valida(){
     document.getElementById("carrozza").innerHTML = Math.floor(Math.random() * 10) +1;
     document.getElementById("codiceCP").innerHTML = Math.floor(Math.random() * 100000) +10000;
 
+}
+
+function resetta(){
+    location.reload();
 }
