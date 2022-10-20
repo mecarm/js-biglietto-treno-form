@@ -4,8 +4,7 @@ body{
 }
 
 .container1{
-    background-color: white;
-    color: #B91350;
+    background-color: white; 
 }
 
 .border_red{
@@ -14,4 +13,17 @@ body{
 
 .color_text{
     color: #B91350;
+}
+
+#passegero{
+    text-transform:capitalize;
+}
+
+input{
+    text-align: center;
+}
+
+button:hover{
+    border-color: #E5944C;
+    font-weight: bold;
 }

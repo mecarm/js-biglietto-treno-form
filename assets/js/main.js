@@ -1,14 +1,14 @@
+function capitalize() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
 function valida(){
     let price = 0.21;
     let valueKm = document.getElementById('km').value;
     let valueAge = document.getElementById('eta').value;
     let passengerName = document.getElementById('passenger').value;
-        console.log(valueKm);
-        console.log(valueAge);
-        console.log(passengerName);
-
+    
     let kmPrice = valueKm * price;
-        console.log(kmPrice);
+        
 
     let discount;
     if (valueAge == "minorenne") {
